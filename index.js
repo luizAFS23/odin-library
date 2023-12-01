@@ -12,7 +12,7 @@ function addBookToLibrary(book){
 }
 
 const theHobbit = new Book("The Hobbit by J.R.R. Tolkien", "295 pages", "read", "https://m.media-amazon.com/images/I/91M9xPIf10L._SL1500_.jpg");
-const lordOfTheRings1 = new Book("The Lord of The Rings: The Fellowship of the King by J.R.R. Tolkien", "576 pages", "not read yet");
+const lordOfTheRings1 = new Book("The Lord of The Rings: The Fellowship of the King by J.R.R. Tolkien", "576 pages", "not read yet", "https://m.media-amazon.com/images/I/81SM0D5+DwL._SL1500_.jpg");
 const lordOfTheRings2 = new Book("The Lord of The Rings: The Two Towers by J.R.R. Tolkien", "464 pages", "not read yet", "https://m.media-amazon.com/images/I/81lQ5N0QwJL._SL1500_.jpg");
 
 addBookToLibrary(theHobbit);
