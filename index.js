@@ -1,3 +1,5 @@
+const book_show = document.querySelector('.book-show');
+
 const myLibrary = [];
 
 function Book(bookname, pagenumber, readitornot, urlimage){
@@ -21,6 +23,10 @@ addBookToLibrary(lordOfTheRings2);
 
 function displayBooks(){
     for(let i = 0; i < myLibrary.length; i++){
-        console.log(myLibrary[i]);
+        var image = new Image();
+        image.src = myLibrary[i].urlimage;
+        book_show.appendChild(image);
     }
 }
+
+displayBooks();
