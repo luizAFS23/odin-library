@@ -21,7 +21,10 @@ addBookToLibrary(theHobbit, lordOfTheRings1, lordOfTheRings2);
 
 function displayBooks(){
     for(let i = 0; i < myLibrary.length; i++){
-        var image = new Image();
+        var image = new Image(200, 250);
+        image.style.border = "5px solid black";
+        book_show.style.display = "flex";
+        book_show.style.gap = "20px";
         image.src = myLibrary[i].urlimage;
         book_show.appendChild(image);
     }
