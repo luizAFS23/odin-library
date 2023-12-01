@@ -4,3 +4,11 @@
     align-items: center;
     gap: 30px;
 }
+
+.new-book-button{
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    border: 3px solid black;
+    border-radius: 10%;
+}

@@ -1,4 +1,5 @@
 const book_show = document.querySelector('.book-show');
+const title_show = document.querySelector('.title-show');
 
 const myLibrary = [];
 
