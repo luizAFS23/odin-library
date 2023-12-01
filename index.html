@@ -14,8 +14,22 @@
             <div class="book-show"></div>
         </div>
         <div style="position: absolute; top: 50%; left: 50%; margin-top: 50px;">
-            <a class="new-book-button" href="newbookform.html">NEW BOOK</a>
+            <button class="new-book-button">NEW BOOK</button>
         </div>
+
+        <dialog id="dialog">
+            <form onsubmit="submitBookInformation()">
+                <h2>Book name:</h2>
+                <input type="text" id="book_name">
+                <h2>Number of pages:</h2>
+                <input type="text" id="page_number">
+                <h2>Have you read it or not?</h2>
+                <input type="text" id="read_it_or_not">
+                <h2>Now, put an URL image for the book:</h2>
+                <input type="text"><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </dialog>
     </div>
 </body>
 <script src="index.js"></script>

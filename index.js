@@ -33,6 +33,13 @@ function displayBooks(){
 
 displayBooks();
 
+const dialog = document.getElementById('dialog');
+const new_book_button = document.querySelector('new-book-button');
+
+new_book_button.addEventListener('click', () =>{
+    dialog.showModal();
+})
+
 const form_book_name = document.getElementById('book_name').value;
 const form_page_number = document.getElementById('page_number').value;
 const form_read_it = document.getElementById('read_it_or_not').value;
