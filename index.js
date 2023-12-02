@@ -37,7 +37,8 @@ const dialog = document.querySelector('dialog');
 const container = document.querySelector('container');
 const new_book_button = container.querySelector('new-book-button');
 
-new_book_button.addEventListener('click', () =>{
+new_book_button.addEventListener('click', (e) =>{
+    e.preventDefault();
     dialog.showModal();
 })
 
