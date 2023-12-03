@@ -1,3 +1,4 @@
+const container = document.querySelector('container');
 const book_show = document.querySelector('.book-show');
 const title_show = document.querySelector('.title-show');
 
@@ -34,8 +35,7 @@ function displayBooks(){
 displayBooks();
 
 const dialog = document.querySelector('dialog');
-const container = document.querySelector('container');
-const new_book_button = container.querySelector('new-book-button');
+const new_book_button = document.querySelector('new-book-button');
 
 new_book_button.addEventListener('click', (e) =>{
     e.preventDefault();
